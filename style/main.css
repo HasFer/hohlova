@@ -82,7 +82,7 @@ nav ul {
 .column {
     flex-direction: column;
 }
-footer nav, div ul {
+footer > nav, div ul {
     display: flex; /*обозначаем, что это flex-контейнер*/
 }
 h1 {
