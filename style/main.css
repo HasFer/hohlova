@@ -82,6 +82,9 @@ nav ul {
 .column {
     flex-direction: column;
 }
+footer nav, div ul {
+    display: flex; /*обозначаем, что это flex-контейнер*/
+}
 h1 {
     font-size: 20px;
     color: indigo;
