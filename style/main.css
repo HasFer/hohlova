@@ -88,10 +88,12 @@ main > div.container {
     background-color: white;
 }
 section {
-
+    flex: 3 0 auto; /* 3 - это ширина столбца */
+    padding: 0 15px;
 }
 aside {
-
+    flex: 1 0 auto
+    padding: 0 15px;
 }
 
 
@@ -104,4 +106,5 @@ footer {
 }
 footer > div.container {
         height: 100%;
+        padding: 10px 0;
 }
