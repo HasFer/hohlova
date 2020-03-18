@@ -78,11 +78,15 @@ header ul li {
     margin-right: 20px;
 }
 
+
 /* Основное содержимое */
 main {
     display: flex;
     flex: 1 0 auto;
-    background-color: lightgray;
+    background-color: #e5e5e5;
+    background-image: url(/hohlova/images/background.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 main > div.container {
     flex: 1 0 auto;
@@ -113,3 +117,20 @@ footer nav ul {
     margin-right: 30px;
 }
 
+button {
+    height: 50px;
+    /*width: 100px;*/
+    background-color: #999;
+    border-radius: 5px;
+}
+
+header a,
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
