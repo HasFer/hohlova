@@ -63,6 +63,13 @@ img {
     }
 }
 
+button {
+    height: 50px;
+    /*width: 100px;*/
+    background-color: #999;
+    border-radius: 5px;
+}
+
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
@@ -84,7 +91,7 @@ main {
     display: flex;
     flex: 1 0 auto;
     background-color: #e5e5e5;
-    background-image: url(/hohlova/images/background.jpg);
+    background-image: url(/hohlova/images/fon.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -117,12 +124,7 @@ footer nav ul {
     margin-right: 30px;
 }
 
-button {
-    height: 50px;
-    /*width: 100px;*/
-    background-color: #999;
-    border-radius: 5px;
-}
+
 
 header a,
 footer a {
