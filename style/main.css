@@ -61,8 +61,14 @@ nav ul {
 }
 .b-right {
     border-right: 1px solid blue;
+}
+.b-left {
     border-left: 1px solid yellow;
+}
+.b-top {
     border-top: 1px dotted green;
+}
+.b-bottom {
     border-bottom: 1px dotted red;
 }
 
@@ -163,7 +169,13 @@ aside li {
  line-height: 1.5em;
 
 }
-
+<style>
+   .line {
+    border-left: 1px solid red; /* Линия слева от текста */
+    border-right: 1px solid red; /* Линия справа от текста */
+    padding: 0 10px;  /* Расстояние между линией и текстом */
+    margin: 0 10%; /* Отступы от края до линии */
+   }
 
 /* Подвал сайта */
 footer {
