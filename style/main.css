@@ -177,7 +177,7 @@ aside li {
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
-    background-color: #000;
+    background-color: #151418;
     color: #fff;
 }
 footer > div.container {
