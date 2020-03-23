@@ -161,7 +161,6 @@ aside {
 }
 aside a {
  color: #000;
-
  text-decoration: none;
 
 }
@@ -173,7 +172,8 @@ aside li {
  line-height: 1.5em;
 
 }
-<style>
+
+
    .line {
     border-left: 1px solid red; /* Линия слева от текста */
     border-right: 1px solid red; /* Линия справа от текста */
