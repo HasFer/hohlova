@@ -154,6 +154,10 @@ section {
 aside {
     flex: 1 0 auto /* 1 - это ширина столбца */
     padding: 0 15px;
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: right;
 }
 aside a {
  color: #000;
