@@ -118,7 +118,7 @@ button {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-    background-color: #000;
+    background-color: #212426;
     height: 100px;
     color: #fff;
 }
