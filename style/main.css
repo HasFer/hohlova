@@ -60,10 +60,10 @@ nav ul {
     list-style: none;
 }
 .b-right {
-    border-right: 1px solid #e5e5e5;
-    border-left: 1px solid #e5e5e5;
-    border-top: 1px dotted #e5e5e5;
-    border-bottom: 1px dotted #e5e5e5;
+    border-right: 1px solid blue;
+    border-left: 1px solid yellow;
+    border-top: 1px dotted green;
+    border-bottom: 1px dotted red;
 }
 
 
