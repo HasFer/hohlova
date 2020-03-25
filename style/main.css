@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
 }
 .button {
-    background-color: #666;
+    background-color: aquamarine;
     border-radius: 5px;
     padding: 20px 30px;
     margin: 10px 20px;
@@ -148,6 +148,7 @@ main > div.container {
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
     padding: 0 15px;
+    font-family: monospace;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
@@ -156,6 +157,8 @@ aside {
     padding: 10px;
     width: 200px;
     float: right;
+    font-size: 22px;
+    font-family: cursive;
 }
 aside a {
     color: black;
@@ -184,7 +187,6 @@ footer nav ul {
 }
 footer li {
     line-height: 2em;
-
 }
 
 
