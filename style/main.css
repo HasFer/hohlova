@@ -61,10 +61,14 @@ h6 {
 .row {
     display: flex;
     flex-direction: row;
+    font-size: 22px;
+    font-family: cursive;
 }
 .column {
     display: flex;
     flex-direction: column;
+    font-size: 22px;
+    font-family: cursive;
 }
 nav ul {
     margin: 0;
