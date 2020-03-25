@@ -19,6 +19,18 @@ body {
     max-width: 1024px; /*максимальная ширина может иметь другое значение*/
     margin: 0 auto;
 }
+button {
+    background-color: #666;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    text-decoration: none !important;
+}
+
+.button:hover {
+    background-color: #888;
+
+}
 h1 {
     font-size: 2.4em;
     padding: .8em 0 1.2em 0;
@@ -100,19 +112,6 @@ img {
     }
 }
 
-button {
-    background-color: #666;
-    border-radius: 5px;
-    padding: 20px 30px;
-    margin: 10px 20px;
-    text-decoration: none !important;
-}
-
-.button:hover {
-    background-color: #888;
-
-}
-
 
 
 /* Шапка сайта */
@@ -129,7 +128,7 @@ header > div.container {
 header ul li {
     margin-right: 20px;
 }
-header .logo {
+header.logo {
  width: 50px;
 }
 
@@ -162,15 +161,12 @@ aside {
 aside a {
  color: #000;
  text-decoration: none;
-
 }
 aside a:hover {
  text-decoration: undeline;
-
 }
 aside li {
  line-height: 1.5em;
-
 }
 
 
