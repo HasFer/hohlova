@@ -159,7 +159,7 @@ aside {
 }
 aside a {
     color: black;
-    text-decoration: none;
+    text-decoration: none;
 }
 aside a:hover {
     text-decoration: undeline;
