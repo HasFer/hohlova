@@ -155,7 +155,7 @@ aside {
     padding: 10px;
     width: 200px;
     float: right;
-    flex: 1 0 auto /* 1 - это ширина столбца */
+    flex: 1 0 auto; /* 1 - это ширина столбца */
 }
 aside a {
     color: black;
