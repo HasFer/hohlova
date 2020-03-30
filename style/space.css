@@ -90,14 +90,10 @@ header.logo {
 icon-mail {
     background-image: url(hohlova/images/mail-icon.png);
     background-position: center right;
-    width: 17px;
-    height: 12px;
 }
 icon-phone {
     background-image: url(hohlova/images/phone-icon.png);
     background-position: center right;
-    width: 17px;
-    height: 17px;
 }
 
 /* Основное содержимое */
@@ -109,14 +105,56 @@ main > div.container {
     flex: 1 0 auto;
 }
 section {
-
+    flex: 3 0 auto; /* 3 - это ширина столбца */
+    padding: 0 15px;
+    font-family: monospace;
 }
 aside {
-
+    flex: 1 0 auto; /* 1 - это ширина столбца */
+    padding: 0 15px;
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: right;
+    font-family: cursive;
+}
+aside a {
+    color: black;
+    text-decoration: none;
+}
+aside a:hover {
+    text-decoration: undeline;
+}
+aside li {
+    line-height: 1.5em;
 }
 
 
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
+    background-color: #151418;
+    color: #fff;
+}
+footer > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+footer nav ul {
+    margin-right: 30px;
+}
+footer li {
+    line-height: 2em;
+}
+
+
+header a,
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover,
+footer a:hover {
+    text-decoration: underline;
 }
