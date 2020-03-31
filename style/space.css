@@ -156,6 +156,6 @@ header a {
     color: #fff;
     text-decoration: none;
 }
-heder a:hover {
-        color: rgb(#808080);
+heder a:active {
+  color: #ccc;;
 }
