@@ -116,8 +116,12 @@ section {
     padding: 0 15px;
     font-family: monospace;
 }
+section > div.container {
+    flex: auto;
+}
 .moon {
     font-family: monospace;
+    color: #222222;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
@@ -153,9 +157,9 @@ footer > div.container {
 footer nav ul {
     margin-right: 30px;
 }
-footer li {
+/*footer li {
     line-height: 2em;
-}
+}*/
 
 
 header a,
