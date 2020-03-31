@@ -114,7 +114,7 @@ section {
     padding: 0 15px;
     font-family: monospace;
 }
-section > moon {
+section > div.container {
     background-color: #222222;
 }
 aside {
