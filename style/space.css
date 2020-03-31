@@ -88,6 +88,11 @@ header {
     flex: 0 0 auto;
     height: 100px;
     background: #222222;
+    background-position: 520px 130px;
+    background-image: url(hohlova/images/moon-rocket.png);
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 180px;
 }
 header > div.container {
     height: 100%;
