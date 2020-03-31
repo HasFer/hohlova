@@ -73,8 +73,8 @@ img {
 .rocket {
     background-image: url(hohlova/images/moon-rocket.png);
     position: center center;
-    width: 438px;
-    height: 438px;
+    width: 200px;
+    height: 200px;
 }
 .arrow {
     background-image: url(hohlova/images/right-arrow-dark.png);
