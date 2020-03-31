@@ -102,9 +102,9 @@ header ul li {
 main {
     display: flex;
     flex: 1 0 auto;
-    background-color: #222222;
+/*    background-color: #222222;*/
     height: 200px;
-    color: #222222;
+/*    color: #222222;*/
 }
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
@@ -114,6 +114,10 @@ section {
 .moon {
     font-family: monospace;
     background-color: #222222;
+}
+.advantages {
+    font-family: monospace;
+    background-color: black;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
