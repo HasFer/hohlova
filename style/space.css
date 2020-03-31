@@ -44,7 +44,7 @@ img {
 }
 .mail {
     background-image: url(hohlova/images/mail-icon.png);
-    background-position: right left;
+    background-position: right right;
     width: 17px;
     height: 12px;
 }
@@ -116,6 +116,9 @@ section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
     padding: 0 15px;
     font-family: monospace;
+}
+section > div.container {
+    flex: 1 0 auto;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
