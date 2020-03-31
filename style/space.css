@@ -46,10 +46,14 @@ img {
 .icon-mail {
     background-image: url(hohlova/images/mail-icon.png);
     background-position: center right;
+    width: 17px;
+    height: 12px;
 }
 .icon-phone {
     background-image: url(hohlova/images/phone-icon.png);
     background-position: center right;
+    width: 17px;
+    height: 17px;
 }
 .logo {
     width: 60px;
