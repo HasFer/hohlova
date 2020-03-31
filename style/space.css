@@ -39,11 +39,12 @@ nav ul {
 
 /* Гибкая верстка */
 img {
+    width: 100%;
     max-width: 100%;
 }
 .mail {
     background-image: url(hohlova/images/mail-icon.png);
-    background-position: center left;
+    background-position: center right;
     width: 17px;
     height: 12px;
 }
@@ -110,7 +111,6 @@ main > div.container {
 }
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
-    background-color: #222222;
     padding: 0 15px;
     font-family: monospace;
 }
@@ -131,7 +131,7 @@ aside a {
     text-decoration: none;
 }
 aside a:hover {
-    text-decoration: undeline;
+    text-decoration: underline;
 }
 aside li {
     line-height: 1.5em;
@@ -156,7 +156,8 @@ footer li {
 }
 
 
-header a {
+header a,
+footer a {
     color: #fff;
     text-decoration: none;
 }
