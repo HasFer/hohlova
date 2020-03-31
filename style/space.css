@@ -39,12 +39,11 @@ nav ul {
 
 /* Гибкая верстка */
 img {
-    width: 100%;
     max-width: 100%;
 }
 .mail {
     background-image: url(hohlova/images/mail-icon.png);
-    background-position: center right;
+    background-position: center left;
     width: 17px;
     height: 12px;
 }
@@ -153,13 +152,10 @@ footer li {
 }
 
 
-header a,
-footer a {
+header a {
     color: #fff;
     text-decoration: none;
 }
-
-header a:hover,
-footer a:hover {
-    text-decoration: underline;
+heder a:hover {
+        color: rgb(#808080);
 }
