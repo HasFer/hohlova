@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: #222222;
+    color: #222222;
 }
 .container {
     display: flex;
@@ -45,13 +45,13 @@ img {
 }
 .mail {
     background-image: url(hohlova/images/mail-icon.png);
-    background-position: right right;
+    position: right right;
     width: 17px;
     height: 12px;
 }
 .phone {
     background-image: url(hohlova/images/phone-icon.png);
-    background-position: center center;
+    position: center center;
     width: 17px;
     height: 17px;
 }
@@ -108,9 +108,9 @@ main {
     height: 200px;
     color: #222222;
 }
-main > div.container {
+/*main > div.container {
     flex: 1 0 auto;
-}
+}*/
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
     padding: 0 15px;
