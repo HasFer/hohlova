@@ -88,6 +88,7 @@ header {
     flex: 0 0 auto;
     background-color: #222222;
     height: 100px;
+    color: #222222;
 }
 header > div.container {
     height: 100%;
@@ -95,9 +96,6 @@ header > div.container {
 }
 header ul li {
     margin-right: 20px;
-}
-header.logo {
-    width: 50px;
 }
 
 
@@ -117,8 +115,8 @@ section {
     padding: 0 15px;
     font-family: monospace;
 }
-section > div.container {
-    flex: 1 0 auto;
+.moon {
+    font-family: monospace;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
