@@ -44,13 +44,13 @@ img {
 }
 .mail {
     background-image: url(hohlova/images/mail-icon.png);
-    background-position: center right;
+    background-position: right right;
     width: 17px;
     height: 12px;
 }
 .phone {
     background-image: url(hohlova/images/phone-icon.png);
-    background-position: center right;
+    background-position: center center;
     width: 17px;
     height: 17px;
 }
@@ -106,6 +106,8 @@ main {
     display: flex;
     flex: 1 0 auto;
     background-color: #222222;
+    height: 200px;
+    color: #222222;
 }
 main > div.container {
     flex: 1 0 auto;
