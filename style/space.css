@@ -116,12 +116,9 @@ section {
     padding: 0 15px;
     font-family: monospace;
 }
-section > div.container {
-    flex: auto;
-}
 .moon {
     font-family: monospace;
-    color: #222222;
+    background-color: #222222;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
