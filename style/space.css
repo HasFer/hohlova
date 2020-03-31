@@ -25,7 +25,6 @@ body {
 .row {
     display: flex;
     flex-direction: row;
-    background-color: gray;
 }
 .column {
     display: flex;
@@ -43,13 +42,13 @@ img {
     width: 100%;
     max-width: 100%;
 }
-.icon-mail {
+.mail {
     background-image: url(hohlova/images/mail-icon.png);
     background-position: center right;
     width: 17px;
     height: 12px;
 }
-.icon-phone {
+.phone {
     background-image: url(hohlova/images/phone-icon.png);
     background-position: center right;
     width: 17px;
