@@ -44,7 +44,7 @@ img {
 }
 .mail {
     background-image: url(hohlova/images/mail-icon.png);
-    background-position: right right;
+    background-position: right left;
     width: 17px;
     height: 12px;
 }
