@@ -87,7 +87,7 @@ img {
 header {
     flex: 0 0 auto;
     height: 100px;
-    background-color: #222222;
+    color: #222222;
 }
 header > div.container {
     height: 100%;
