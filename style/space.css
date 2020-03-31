@@ -85,7 +85,7 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-    background-color: #212426;
+    background-color: #222222;
     height: 100px;
 }
 header > div.container {
@@ -110,12 +110,12 @@ main > div.container {
 }
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
+    background-color: #222222;
     padding: 0 15px;
     font-family: monospace;
-    background-color: #222222;
-
 }
-.moon {
+section > moon {
+    background-color: #222222;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
