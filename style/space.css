@@ -113,6 +113,9 @@ section {
     padding: 0 15px;
     font-family: monospace;
 }
+.moon {
+    background-color: #222222;
+}
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
     padding: 0 15px;
@@ -155,7 +158,4 @@ footer li {
 header a {
     color: #fff;
     text-decoration: none;
-}
-heder a:active {
-  color: #ccc;;
 }
