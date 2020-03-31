@@ -25,11 +25,11 @@ body {
 .row {
     display: flex;
     flex-direction: row;
+    text-decoration-color: gray;
 }
 .column {
     display: flex;
     flex-direction: column;
-    color: grey;
 }
 nav ul {
     margin: 0;
