@@ -135,7 +135,7 @@ header {
     background: #222222;
     background-position: 520px 130px;
     min-height: 400px;
-    padding-top: 50px;
+    padding: 50px;
     padding-bottom: 180px;
 }
 header > div.container {
