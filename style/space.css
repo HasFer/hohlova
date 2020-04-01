@@ -19,7 +19,8 @@ body {
     width: 100%;
     max-width: 1200px; /*максимальная ширина может иметь другое значение*/
     padding: 0;
-    margin: 0 auto;
+/*    margin: 0 auto;*/
+    margin-bottom: 80px;
 }
 .button {
     width: 195px;
@@ -35,8 +36,10 @@ body {
     background-color: white;
 }
 h1 {
+/*
     margin: 0;
     padding: 0;
+*/
     font-size: 45px;
     line-height: 50px;
     font-family: "Courier New", monospace;
@@ -45,7 +48,7 @@ h1 {
 p {
     line-height: 22px;
     color: #d4d4d4;
-    font-size: 5px;
+    font-size: 14px;
 }
 
 
@@ -53,7 +56,7 @@ p {
 .row {
     display: flex;
     flex-direction: none;
-    font-size: 3px;
+    font-size: 14px;
 }
 .column {
     display: flex;
@@ -133,10 +136,12 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-    height: 100px;
+/*    height: 100px;*/
     background: #222222;
+/*
     background-position: 520px 130px;
     min-height: 400px;
+*/
     padding: 50px;
 /*    padding-bottom: 180px;*/
 }
@@ -146,6 +151,7 @@ header > div.container {
 }
 header ul li {
     margin-right: 20px;
+    color: #d4d4d4;
 }
 
 
