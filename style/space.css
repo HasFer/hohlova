@@ -113,7 +113,7 @@ img {
 }
 .advantage {
     background-image: url(hohlova/images/advantage-icon-1.png);
-    position: fixed;
+/*    position: fixed;*/
 /*
     padding-right: 150px;
     padding-left: 50px;
