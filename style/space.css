@@ -46,12 +46,19 @@ h1 {
     color: white;
     padding-bottom: 50px;
 }
+pre {
+    line-height: 22px;
+    color: #d4d4d4;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
 p {
     line-height: 22px;
     color: #d4d4d4;
     font-size: 16px;
     padding-bottom: 50px;
 }
+
 
 
 /* Предустановки */
@@ -107,6 +114,10 @@ img {
 .advantage {
     background-image: url(hohlova/images/advantage-ico n-1.png);
     position: fixed;
+/*
+    padding-right: 150px;
+    padding-left: 50px;
+*/
     width: 60px;
     height: 68px;
 }
