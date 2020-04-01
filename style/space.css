@@ -28,7 +28,6 @@ body {
     font-size: 14px;
     line-height: 50px;
     text-decoration: none;
-/*    text-transform: uppercase;*/
     background-color: #feca30;
     color: black;
 }
@@ -43,8 +42,7 @@ h1 {
     font-family: "Courier New", monospace;
     color: white;
 }
-br {
-    font-size: 14px;
+p {
     line-height: 22px;
     color: #d4d4d4;
 }
