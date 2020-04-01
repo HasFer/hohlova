@@ -113,8 +113,10 @@ img {
 }
 .advantage {
     background-image: url(hohlova/images/advantage-icon-1.png);
-/*    position: fixed;*/
-/*
+    background-image: url(hohlova/images/advantage-icon-2.png);
+    background-image: url(hohlova/images/advantage-icon-3.png);
+    background-image: url(hohlova/images/advantage-icon-4.png);
+/*  position: fixed;
     padding-right: 150px;
     padding-left: 50px;
 */
