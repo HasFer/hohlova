@@ -11,6 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    line-height: 20px;
+    font-family: "Verdana", sans-serif;
 }
 .container {
     display: flex;
@@ -32,11 +34,25 @@ body {
 .button:hover {
     background-color: white;
 }
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Courier New", monospace;
+    background-color: white;
+}
+br {
+    font-size: 14px;
+    line-height: 22px;
+    color: #d4d4d4;
+}
+
 
 /* Предустановки */
 .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: none;
 }
 .column {
     display: flex;
@@ -73,14 +89,20 @@ img {
 .rocket {
     background-image: url(hohlova/images/moon-rocket.png);
     position: center center;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 .arrow {
     background-image: url(hohlova/images/right-arrow-dark.png);
     position: fixed;
     width: 19px;
     height: 16px;
+}
+.advantage {
+    background-image: url(hohlova/images/advantage-ico n-1.png);
+    position: fixed;
+    width: 60px;
+    height: 68px;
 }
 .col-1 {
     flex: 1;
@@ -146,7 +168,12 @@ section {
     padding: 85px 0;
     background-color: #131313;
     color: #ffffff;
-
+}
+advantages ul li {
+    width: 180px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #d4d4d4;
 }
 aside {
     flex: 1 0 auto; /* 1 - это ширина столбца */
@@ -182,9 +209,9 @@ footer > div.container {
 footer nav ul {
     margin-right: 30px;
 }
-/*footer li {
+footer li {
     line-height: 2em;
-}*/
+}
 
 
 header a,
