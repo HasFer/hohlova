@@ -44,11 +44,13 @@ h1 {
     line-height: 50px;
     font-family: "Courier New", monospace;
     color: white;
+    padding-bottom: 50px;
 }
 p {
     line-height: 22px;
     color: #d4d4d4;
-    font-size: 14px;
+    font-size: 16px;
+    padding-bottom: 50px;
 }
 
 
@@ -93,8 +95,8 @@ img {
 .rocket {
     background-image: url(hohlova/images/moon-rocket.png);
     position: center center;
-    width: 338px;
-    height: 338px;
+    width: 440px;
+    height: 440px;
 }
 .arrow {
     background-image: url(hohlova/images/right-arrow-dark.png);
@@ -136,18 +138,19 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-/*    height: 100px;*/
+    height: 75%;
     background: #222222;
 /*
     background-position: 520px 130px;
     min-height: 400px;
 */
-    padding: 50px;
-/*    padding-bottom: 180px;*/
+    padding: 75px;
+    padding-bottom: 54%;
 }
 header > div.container {
-    height: 100%;
+    height: 90%;
     align-items: center;
+    margin-bottom: 120px;
 }
 header ul li {
     margin-right: 20px;
@@ -163,15 +166,19 @@ main {
 }
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
-    padding: 0 15px;
-    font-family: monospace;
+    padding: 0 90px;
+}
+.content {
+    flex: 1 0 auto;
 }
 .moon {
+    flex: 1 0 auto;
     font-family: monospace;
     background-color: #222222;
-    height: 100%;
+/*    height: 100%;*/
 }
 .advantages {
+    flex: 1 0 auto;
     font-family: monospace;
     padding: 85px 0;
     background-color: #131313;
