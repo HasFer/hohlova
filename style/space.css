@@ -45,6 +45,7 @@ h1 {
 p {
     line-height: 22px;
     color: #d4d4d4;
+    font-size: 5px;
 }
 
 
@@ -52,6 +53,7 @@ p {
 .row {
     display: flex;
     flex-direction: none;
+    font-size: 3px;
 }
 .column {
     display: flex;
@@ -88,8 +90,8 @@ img {
 .rocket {
     background-image: url(hohlova/images/moon-rocket.png);
     position: center center;
-    width: 300px;
-    height: 300px;
+    width: 338px;
+    height: 338px;
 }
 .arrow {
     background-image: url(hohlova/images/right-arrow-dark.png);
@@ -136,7 +138,7 @@ header {
     background-position: 520px 130px;
     min-height: 400px;
     padding: 50px;
-    padding-bottom: 180px;
+/*    padding-bottom: 180px;*/
 }
 header > div.container {
     height: 100%;
@@ -161,6 +163,7 @@ section {
 .moon {
     font-family: monospace;
     background-color: #222222;
+    height: 100%;
 }
 .advantages {
     font-family: monospace;
