@@ -28,8 +28,9 @@ body {
     font-size: 14px;
     line-height: 50px;
     text-decoration: none;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     background-color: #feca30;
+    color: black;
 }
 .button:hover {
     background-color: white;
@@ -40,7 +41,7 @@ h1 {
     font-size: 45px;
     line-height: 50px;
     font-family: "Courier New", monospace;
-    background: white;
+    color: white;
 }
 br {
     font-size: 14px;
