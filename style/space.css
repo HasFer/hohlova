@@ -40,7 +40,7 @@ h1 {
     font-size: 45px;
     line-height: 50px;
     font-family: "Courier New", monospace;
-    background-color: white;
+    background: white;
 }
 br {
     font-size: 14px;
