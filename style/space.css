@@ -12,12 +12,12 @@ body {
     flex-direction: column;
     height: 100%;
     line-height: 20px;
-    font-family: "Verdana", sans-serif;
+    font-family: sans-serif;
 }
 .container {
     display: flex;
     width: 100%;
-    max-width: 1200px; /*максимальная ширина может иметь другое значение*/
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
     padding: 0;
 /*    margin: 0 auto;*/
     margin-bottom: 80px;
@@ -64,7 +64,7 @@ p {
 /* Предустановки */
 .row {
     display: flex;
-    flex-direction: none;
+    flex-direction: row; /*было none*/
     font-size: 14px;
 }
 .column {
@@ -76,13 +76,16 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-
+strong {
+    font-weight: bold;
+}
+.block {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
 
 /* Гибкая верстка */
-img {
-    width: 100%;
-    max-width: 100%;
-}
 .mail {
     background-image: url(hohlova/images/mail-icon.png);
     position: center center;
@@ -153,22 +156,38 @@ img {
 header {
     flex: 0 0 auto;
     height: 75%;
-    background: #222222;
+    background-color: #222222;
+    font-size: 0.9em;
 /*
-    background-position: 520px 130px;
-    min-height: 400px;
-*/
     padding: 75px;
     padding-bottom: 54%;
+*/
 }
 header > div.container {
-    height: 90%;
-    align-items: center;
-    margin-bottom: 120px;
+    height: 100%; /*было 90*/
+    align-items: flex-end;
+/*    margin-bottom: 120px;*/
 }
-header ul li {
-    margin-right: 20px;
+header ul {
+    display: flex;
+    padding-bottom: 20px;
+}
+header li {
     color: #d4d4d4;
+}
+header li a {
+    padding: 50px 10px 10px 10px;
+    margin-right: 10px;
+    color: #d4d4d4;
+    text-decoration: none;
+}
+.header-icon {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.header-icon img {
+    padding-right: 20px;
 }
 
 
@@ -189,7 +208,6 @@ section {
     flex: 1 0 auto;
     font-family: monospace;
     background-color: #222222;
-/*    height: 100%;*/
 }
 .advantages {
     flex: 1 0 auto;
