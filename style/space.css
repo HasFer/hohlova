@@ -256,26 +256,6 @@ section {
     background-color: #feca30;
 }
 
-aside {
-    flex: 1 0 auto; /* 1 - это ширина столбца */
-    padding: 0 15px;
-    background: #f0f0f0;
-    padding: 10px;
-    width: 200px;
-    float: right;
-    font-family: cursive;
-}
-aside a {
-    color: black;
-    text-decoration: none;
-}
-aside a:hover {
-    text-decoration: underline;
-}
-aside li {
-    line-height: 1.5em;
-}
-
 
 /* Подвал сайта */
 footer {
@@ -306,15 +286,3 @@ footer li a {
     color: #888888;
     text-decoration: none;
 }
-/*
-footer > div.container {
-    height: 100%;
-    padding: 10px 0;
-}
-footer nav ul {
-    margin-right: 30px;
-}
-footer li {
-    line-height: 2em;
-}
-*/
