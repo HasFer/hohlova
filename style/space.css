@@ -273,10 +273,10 @@ footer h3 {
     padding-bottom: 20px;
     color: #fff;
     text-transform: uppercase;
-    border-bottom: 1px solid #888888;
+    border-bottom: 1px solid #fff;
 }
 footer h3 a {
-    color: #888888;
+    color: #fff;
     text-decoration: none;
 }
 footer li {
