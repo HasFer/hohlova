@@ -132,6 +132,7 @@ header > div.container {
 header ul {
     display: flex;
     padding-bottom: 20px;
+    font-size: 14px;
 }
 header li {
     color: #d4d4d4;
@@ -175,14 +176,13 @@ section {
     margin: 40px 0;
     font-family: Courier new, monospace;
     font-weight: bold;
-    font-size: 3.2em;
+    font-size: 45px;
     line-height: 50px;
     color: #fff;
-    padding-left: 120px;
 }
 .moon p {
     margin-bottom: 50px;
-    padding-left: 125px;
+    padding-left: 5px;
     line-height: 22px;
     color: #d4d4d4;
     font-size: 14px;
@@ -206,6 +206,12 @@ section {
 }
 .advantages .block-item {
     max-width: 200px;
+}
+.block-item::after {
+    background-image: url(hohlova/images/advantage-icon-1.png);
+}
+.advantages::after {
+    background-image: url(hohlova/images/advantage-icon-1.png);
 }
 .advantages img {
     padding: 30px 0;
