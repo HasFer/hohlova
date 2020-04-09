@@ -153,10 +153,8 @@ header li a {
 
 
 /* Основное содержимое */
-main {
-    display: flex;
-    flex: 1 0 auto;
-    height: 200px;
+.man {
+    padding-left: 120px;
 }
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
@@ -180,6 +178,7 @@ section {
     font-size: 3.2em;
     line-height: 50px;
     color: #fff;
+    padding-left: 120px;
 }
 .moon p {
     margin-bottom: 50px;
