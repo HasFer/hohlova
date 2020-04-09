@@ -129,16 +129,15 @@ header {
 header > div.container {
     height: 100%;
     align-items: flex-end;
+    padding-right: 20px;
 }
 header ul {
     display: flex;
     padding-bottom: 20px;
     font-size: 14px;
-    padding-right: 20px;
 }
 header li {
     color: #d4d4d4;
-    padding-right: 20px;
 }
 header li a {
     padding: 50px 10px 10px 10px;
