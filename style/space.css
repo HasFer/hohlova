@@ -207,7 +207,7 @@ section {
 .advantages .block-item {
     max-width: 200px;
 }
-.block-item::after {
+.advantages .block-item::after {
     background-image: url(hohlova/images/advantage-icon-1.png);
 }
 .advantages::after {
