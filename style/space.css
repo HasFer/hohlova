@@ -143,12 +143,12 @@ header li a {
     margin-right: 10px;
     color: #d4d4d4;
     text-decoration: none;
+    padding-right: 20px;
 }
 .header-icon {
     display: flex;
     padding-bottom: 20px;
     align-items: center;
-    padding-right: 20px;
 }
 .header-icon img {
     padding-right: 20px;
