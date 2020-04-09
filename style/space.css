@@ -46,12 +46,11 @@ strong {
     width: 100%;
     margin: 0 auto;
 }
-btn {
+.btn {
     position: relative;
-    display: flex;
+    display: inline-block;
     width: 195px;
     padding: 0 25px;
-    font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 50px;
@@ -59,6 +58,8 @@ btn {
     text-transform: uppercase;
     vertical-align: top;
     color: #222222;
+    cursor: pointer;
+    border: none;
     border-radius: 50px;
 }
 .btn::after {
@@ -182,10 +183,11 @@ section {
 }
 .moon p {
     margin-bottom: 50px;
-    padding-left: 5px;
+    padding-left: 125px;
     line-height: 22px;
     color: #d4d4d4;
-    font-size: 1.1em;
+    font-size: 14px;
+    width: 400px;
 }
 .moon img {
     width: 100%;
