@@ -129,7 +129,6 @@ header {
 header > div.container {
     height: 100%;
     align-items: flex-end;
-    padding-right: 20px;
 }
 header ul {
     display: flex;
@@ -144,6 +143,9 @@ header li a {
     margin-right: 10px;
     color: #d4d4d4;
     text-decoration: none;
+}
+header a {
+    padding-right: 20px;
 }
 .header-icon {
     display: flex;
