@@ -139,7 +139,6 @@ strong {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-/*    height: 100%;*/
     background-color: #222222;
     font-size: 0.9em;
     padding-right: 20px;
@@ -147,11 +146,9 @@ header {
 header > div.container {
     height: 100%;
     padding-top: 50px;
-/*    align-items: flex-end;*/
 }
 header ul {
     display: flex;
-/*    padding-bottom: 20px;*/
     padding-top: 50px;
     font-size: 14px;
 }
@@ -169,7 +166,6 @@ header a {
 }
 .header-icon {
     display: flex;
-/*    padding-bottom: 20px;*/
     padding-top: 50px;
     align-items: center;
 }
@@ -326,15 +322,4 @@ footer li {
 footer li a {
     color: #888888;
     text-decoration: none;
-}
-/*
-footer span {
-    vertical-align: top;
-    font-size: 14px;
-}
-*/
-.footer-logo {
-    display: flex;
-    height: 70px;
-    align-items: center;
 }
