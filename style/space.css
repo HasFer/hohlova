@@ -151,7 +151,7 @@ header > div.container {
 }
 header ul {
     display: flex;
-    padding-top: 25px;
+    padding-top: 50px;
     font-size: 14px;
 }
 header li {
@@ -165,7 +165,7 @@ header li a {
 }
 .header-icon {
     display: flex;
-    padding-top: 2px;
+    padding-top: 50px;
     align-items: center;
 }
 .header-icon img {
