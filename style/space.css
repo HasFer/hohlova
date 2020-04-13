@@ -16,6 +16,7 @@ body {
 }
 .container {
     display: flex;
+    height: 100%;
     width: 100%;
     max-width: 1024px; /*максимальная ширина может иметь другое значение*/
     margin: 0 auto;
