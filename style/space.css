@@ -116,11 +116,13 @@ strong {
         padding: 0 15px;
     }
 }
+/*
 @media (max-width: 800px) {
     .container {
         flex-direction: column;
     }
 }
+*/
 @media (max-width: 800px) {
     header > div.container,
     section .container,
@@ -174,6 +176,9 @@ header li a {
 /* Основное содержимое */
 .man {
     padding-left: 120px;
+    width: 300px;
+    margin: 0 5vw;
+    padding: 60px 0;
 }
 section {
     flex: 3 0 auto; /* 3 - это ширина столбца */
