@@ -10,7 +10,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    height: 20%;
+    height: 100%;
     font-size: 12px;
     font-family: Verdana, sans-serif;
 }
