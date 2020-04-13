@@ -149,7 +149,7 @@ header > div.container {
 }
 header ul {
     display: flex;
-    padding-top: 50px;
+    padding-top: 25px;
     font-size: 14px;
 }
 header li {
@@ -161,12 +161,9 @@ header li a {
     color: #d4d4d4;
     text-decoration: none;
 }
-header a {
-    padding-right: 20px;
-}
 .header-icon {
     display: flex;
-    padding-top: 50px;
+    padding-top: 2px;
     align-items: center;
 }
 .header-icon img {
