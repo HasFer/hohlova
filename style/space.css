@@ -221,12 +221,12 @@ section {
     padding-bottom: 80px;
 }
 table {
-    margin-left: 100px;
     border-collapse: collapse;
     border-spacing: 5px;
+    padding-left: 150px;
 }
 td {
-    padding: 10px;
+    padding: 13px;
     padding-right: 50px;
     border-bottom: 2px solid #4b4b4b;
     border-top: 2px solid #4b4b4b;
@@ -239,7 +239,8 @@ th {
     color: #fff;
     background-color: #111111;
     border: 0px solid #111111;
-    padding: 10px;
+    padding: 13px;
+    padding-right: 100px;
 }
 
 .advantages {
