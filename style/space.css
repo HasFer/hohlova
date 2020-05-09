@@ -38,9 +38,11 @@ nav ul {
     padding: 0;
     list-style: none;
 }
+/*
 strong {
     font-weight: bold;
 }
+*/
 .block {
     display: flex;
     width: 100%;
@@ -219,11 +221,19 @@ section {
     background-color: #222222;
     padding: 30px 0;
     padding-bottom: 80px;
+    padding-left: 150px;
+}
+.flying h2 {
+    margin: 40px 0;
+    font-family: Courier new, monospace;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    color: #feca30;
 }
 table {
     border-collapse: collapse;
     border-spacing: 5px;
-    padding-left: 150px;
 }
 td {
     padding: 13px;
