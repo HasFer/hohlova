@@ -213,6 +213,14 @@ section {
     margin: 30px 0;
 }
 
+flying {
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    background-color: #222222;
+    padding: 30px 0;
+}
+
+
 .advantages {
     flex: 1 0 auto;
     font-family: monospace;
@@ -284,7 +292,6 @@ section {
     border-radius: 50%;
     background-color: #feca30;
 }
-
 
 /* Подвал сайта */
 footer {
