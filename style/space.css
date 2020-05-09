@@ -220,19 +220,16 @@ section {
     padding-left: 150px;
 }
 .flying h2 {
-/*    margin: 40px 0;*/
     font-family: Courier new, monospace;
     font-weight: bold;
     font-size: 30px;
-/*    line-height: 20px;*/
     color: #feca30;
 }
 .flying p {
     margin-bottom: 50px;
+    margin-top: 5px;
     padding-left: 5px;
-    line-height: 22px;
     color: #d4d4d4;
-    font-size: 14px;
     width: 90%;
 }
 table {
