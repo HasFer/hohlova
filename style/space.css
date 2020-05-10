@@ -254,6 +254,10 @@ th {
     padding-right: 120px;
 }
 
+shape a {
+    color: #feca30;
+    width: 90%;
+}
 .shape {
     flex: 1 0 auto;
     flex-wrap: wrap;
@@ -271,10 +275,6 @@ th {
 }
 .shape p {
     color: #202020;
-    width: 90%;
-}
-.shape a {
-    color: #feca30;
     width: 90%;
 }
 form {
