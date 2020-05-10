@@ -90,6 +90,7 @@ nav ul {
 }
 
 
+
 /* Гибкая верстка */
 .col-1 {
     flex: 1;
@@ -217,7 +218,7 @@ section {
     background-color: #222222;
     padding: 30px 0;
     padding-bottom: 80px;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 .flying h2 {
     font-family: Courier new, monospace;
@@ -228,7 +229,6 @@ section {
 .flying p {
     margin-bottom: 50px;
     margin-top: 5px;
-    padding-left: 5px;
     color: #d4d4d4;
     width: 90%;
 }
@@ -251,7 +251,7 @@ th {
     background-color: #111111;
     border: 0px solid #111111;
     padding: 13px;
-    padding-right: 100px;
+    padding-right: 120px;
 }
 
 .shape {
@@ -260,7 +260,7 @@ th {
     background-color: #f0f0f0;
     padding: 30px 0;
     padding-bottom: 80px;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 .shape h2 {
     font-family: Courier new, monospace;
