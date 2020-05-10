@@ -273,6 +273,9 @@ th {
     color: #202020;
     width: 90%;
 }
+form {
+    margin-bottom: 20px;
+}
 
 .advantages {
     flex: 1 0 auto;
