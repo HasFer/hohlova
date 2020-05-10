@@ -222,7 +222,7 @@ section {
 .flying h2 {
     font-family: Courier new, monospace;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: #feca30;
 }
 .flying p {
@@ -257,10 +257,23 @@ th {
 .shape {
     flex: 1 0 auto;
     flex-wrap: wrap;
-    background-color: #222222;
+    background-color: #f0f0f0;
     padding: 30px 0;
     padding-bottom: 80px;
     padding-left: 150px;
+}
+.shape h2 {
+    font-family: Courier new, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    color: #202020;
+}
+.shape p {
+    margin-bottom: 50px;
+    margin-top: 5px;
+    padding-left: 5px;
+    color: #202020;
+    width: 90%;
 }
 
 .advantages {
