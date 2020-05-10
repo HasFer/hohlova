@@ -232,6 +232,10 @@ section {
     color: #d4d4d4;
     width: 90%;
 }
+.flying a {
+    color: #feca30;
+    width: 90%;
+}
 table {
     border-collapse: collapse;
     border-spacing: 5px;
@@ -254,10 +258,7 @@ th {
     padding-right: 120px;
 }
 
-.shape_p_a {
-    color: #feca30;
-    width: 90%;
-}
+
 .shape {
     flex: 1 0 auto;
     flex-wrap: wrap;
