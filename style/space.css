@@ -267,11 +267,9 @@ th {
     font-weight: bold;
     font-size: 25px;
     color: #202020;
+    padding-bottom: 30px;
 }
 .shape p {
-    margin-bottom: 50px;
-    margin-top: 5px;
-    padding-left: 5px;
     color: #202020;
     width: 90%;
 }
