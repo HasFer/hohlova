@@ -273,8 +273,12 @@ th {
     color: #202020;
     width: 90%;
 }
+.shape a {
+    color: #feca30;
+    width: 90%;
+}
 form {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .advantages {
