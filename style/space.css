@@ -278,42 +278,28 @@ th {
     color: #202020;
     width: 90%;
 }
-/*
 form {
+    width: 350px;
+    margin-left: auto;
     margin-bottom: 30px;
-}
-*/
-form {
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-    margin-bottom: 30px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #cccccc;
 }
 label {
   display: block;
   margin-bottom: 5px;
 }
 input {
-  font-family: "Roboto", sans-serif;
-
-  border-radius: 5px;
+    font-family: "Roboto", sans-serif;
 }
-input[type="text"],
-input[type="password"] {
-  width: 95%;
-  height: 24px;
-  margin-bottom: 10px;
-  padding: 2px 5px;
-
-  border: 1px solid #cccccc;
+input[type="text"] {
+    width: 95%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 0 solid #cccccc;
 }
 input[type="image"] {
   padding: 5px;
   border: 1px solid #cccccc;
-
   vertical-align: top;
 }
 input[type="submit"] {
