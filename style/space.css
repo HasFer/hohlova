@@ -81,6 +81,7 @@ nav ul {
     width: 215px;
     color: #fff;
     background-color: #222;
+    margin-left: 90px;
 }
 .btn-grey::after {
     background-image: url(/hohlova/images/right-arrow-white.png);
@@ -294,13 +295,17 @@ input[type="text"] {
     border: 0px;
     color: #686868;
 }
-input[type="tex"] {
+input[type="txt"] {
     width: 47%;
     height: 40px;
     margin-bottom: 5px;
     padding: 10px;
     border: 0px;
     color: #686868;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+    margin-top: 30px;
 }
 
 .advantages {
