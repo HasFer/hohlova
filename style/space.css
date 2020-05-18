@@ -305,8 +305,7 @@ input[type="txt"] {
 }
 input[type="checkbox"] {
     margin-top: 20px;
-    margin-left: 5px;
-    transform: scale(1.5);
+    margin-left: 2.5px;
 }
 
 .advantages {
